@@ -136,6 +136,10 @@ impl Language {
     ];
 
     pub fn new(version: Version) -> std::result::Result<Self, Error> {
+        if version == Version::new(999, 999, 999) {
+            panic!("Simulating an internal panic, Armando!");
+        }
+
         if Self::SUPPORTED_VERSIONS.contains(&version) {
             Ok(Self {
                 version_is_at_least_0_4_21: Version::new(0, 4, 21) <= version,
