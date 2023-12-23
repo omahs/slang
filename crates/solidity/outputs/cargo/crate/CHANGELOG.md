@@ -1,5 +1,17 @@
 # changelog
 
+## 0.13.0
+
+### Minor Changes
+
+-   [#710](https://github.com/NomicFoundation/slang/pull/710) [`2025b6cb`](https://github.com/NomicFoundation/slang/commit/2025b6cb23dc320b413b482ed1fe8455229b7d84) Thanks [@Xanewok](https://github.com/Xanewok)! - CST children nodes are now named
+
+-   [#719](https://github.com/NomicFoundation/slang/pull/719) [`1ad6bb37`](https://github.com/NomicFoundation/slang/commit/1ad6bb37337aa28d9344380c5c9eb1945e908271) Thanks [@OmarTawfik](https://github.com/OmarTawfik)! - introduce strong types for all Solidity non terminals in the TypeScript API.
+
+### Patch Changes
+
+-   [#719](https://github.com/NomicFoundation/slang/pull/719) [`1ad6bb37`](https://github.com/NomicFoundation/slang/commit/1ad6bb37337aa28d9344380c5c9eb1945e908271) Thanks [@OmarTawfik](https://github.com/OmarTawfik)! - unify Rust/TypeScript node helpers: `*_with_kind()`, `*_with_kinds()`, `*_is_kind()`), ...
+
 ## 0.12.0
 
 ### Minor Changes
